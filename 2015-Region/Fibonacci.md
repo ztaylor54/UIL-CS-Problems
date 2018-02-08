@@ -1,4 +1,5 @@
-#Problem 4: Fibonacci
+# Problem 4: Fibonacci
+
 | Program Name     | Input File      |
 |------------------|-----------------|
 | `Fibonacci.java` | `fibonacci.dat` |
@@ -21,14 +22,14 @@ If we were to expand all of the calls made to the method `fibonacci()`, you woul
 
 Given some integer `N`, determine for many duplicate calls will be made to the `fibonacci()` method.
 
-##Input
+## Input
 The first line of input will contain a single integer `T`, the number of test cases.
 The only line of each test case contains a single integer `N`.
 
-##Output
+## Output
 For each test case, print out the number of duplicated function calls.
 
-##Example Input File
+## Example Input File
 ```shell
 3
 4
@@ -36,14 +37,14 @@ For each test case, print out the number of duplicated function calls.
 1
 ```
 
-##Example Output to Screen
+## Example Output to Screen
 ```shell
 4
 99
 0
 ```
 
-#Solution
+# Solution
 This problem is rather straightforward: all we need to do is keep track of which `n` values have been computed.
 
 I decided to keep an `ArrayList` of all computed `n` values, so I could check it at the beginning of every function call:
