@@ -1,6 +1,7 @@
-#2015 Regional Programming Problem Set
+# 2015 Regional Programming Problem Set
 
-##Table of Contents
+## Table of Contents
+
 | Number     | Name              |
 |------------|-------------------|
 | Problem 1  | Codebreaker       |
