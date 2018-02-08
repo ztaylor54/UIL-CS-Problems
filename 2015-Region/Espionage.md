@@ -1,4 +1,5 @@
-#Espionage
+# Espionage
+
 | Program Name     | Input File      |
 |------------------|-----------------|
 | `Espionage.java` | `espionage.dat` |
@@ -7,14 +8,14 @@ Universal Intercontinental Laminates (UIL) is in the process of developing new p
 
 Here is the encryption algorithm. Let `s` be the string that represents the encoded message. Call `si` the representation of the string obtained by replacing each character with the decimal representation of its ASCII calue. For example, if `s="ab"`, then `si="9798"`. Let `i` be the integer value of `si`. In this example, `i = 9798`. You are given another integer `d`, and the molecular weight, is `i % d`. Only printable ASCII characters are used in the encoding, and there are no newlines or tab characters.
 
-##Input
+## Input
 The first line of input is an integer `t`, the number of test cases.
 For each test case, there are two line -- the first is a text line `s`, and the next is an integer `d`.
 
-##Output
+## Output
 Print one line for each test case with the molecular weight.
 
-##Example Input File
+## Example Input File
 ```shell
 3
 ab
@@ -25,14 +26,14 @@ ab
 9087
 ```
 
-##Example Output to Screen
+## Example Output to Screen
 ```shell
 0
 9798
 8492
 ```
 
-#Solution
+# Solution
 The solution to this problem is very simple, and takes 3 steps:
 
 1. Scan in `t`, `s`, and `d`
